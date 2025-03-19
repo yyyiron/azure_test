@@ -1,0 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"  # 指定包管理器为 npm
+    directory: "/"            # 指定项目根目录
+    schedule:
+      interval: "daily"       # 每天检查更新
+    open-pull-requests-limit: 10  # 最多同时打开的 PR 数量
